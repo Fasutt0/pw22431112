@@ -1,0 +1,53 @@
+body{
+    
+    background-color: dimgray; /* Color de Fondo de Pagina.*/
+    border: 1px solid snow; /*Color de borde de la pagina.*/
+    color: whitesmoke; /*Color de las letras de las paginas.*/
+    font-size: 16px; 
+    margin: 50px auto; 
+    max-width: 1024; 
+
+}
+
+header{
+    text-align: center;
+}
+
+header img{
+    border-radius: 50px;
+    width: 150px;
+    align-items: center;
+}
+
+header h1{
+    text-align: left;
+}
+
+header form {
+    text-align: left;
+}
+
+header nav ol{
+    text-align: center;
+}
+
+header nav ol li{
+    background: black;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: -2px 2px 1px white;
+    color: whitesmoke;
+    display: inline-block;
+    /* padding: 12px; */
+    padding: 10px 26px;
+}
+
+header nav ol li:hover{
+    background-color: whitesmoke;
+    color: black;
+    box-shadow: -2px 2px 1px black;
+}
+
+footer{
+    text-align: right;
+}
