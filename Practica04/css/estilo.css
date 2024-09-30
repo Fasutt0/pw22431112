@@ -1,0 +1,171 @@
+@font-face{
+    font-family: 'Quicksand'; /* Nombre personalizado para la fuente */
+    src: url('/fonts/Quicksand-VariableFont_wght.ttf') format('ttf'); /* Rutas a los archivos de fuente */
+    font-weight: normal; /* Define si es una fuente regular o bold */
+    font-style: normal;  /* Define si es normal o cursiva */
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px; /* 1em */
+    margin: 0px auto;
+    max-width: 1024px;
+    height: 100%;
+}
+
+/* Imagenes del Menu de Arriba. */
+header #FirstBike {
+    position: relative;
+    height: 50px;
+    top: 20px; /* mueve la imagen hacia abajo */
+    right: -20px; /* mueve la imagen hacia la derecha */
+}
+header #HongKong , #ReinoUnido , #MundoNaranja {
+    position: relative;
+    height: 35px;
+    top: -20px; /* mueve la imagen hacia arriba */
+    right: -695px; /* mueve la imagen hacia la derecha */
+}
+header #Buy{
+    position: relative;
+    height: 55px;
+    top: 112px; /* mueve la imagen hacia abajo */
+    right: -353px; /* mueve la imagen hacia la derecha */
+}
+header #GotoShop{
+    position: relative;
+    height: 65px;
+    top: 60px; /* mueve la imagen hacia abajo */
+    right: -350px; /* mueve la imagen hacia la derecha */
+}
+
+/* Linea de Separacion entre el Menu y el Titulo. */
+header hr{
+    border-top: 3px dashed gainsboro; /* Línea discontinua */
+    margin: 30px 0;                 /*Espaciado vertical */
+}
+
+/* Menu de Arriba. */
+header nav ul{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 60px; /* mueve la imagen hacia abajo */
+    margin-left: -400px; /* mueve la imagen hacia la izquierda */
+}
+header nav ul li{
+    /* Hacer Negrita la Letra. */
+    font-weight: bold;
+    /* Quitar los espacios entre las cajas. */
+    display: inline-block;
+    /* Distancia entre las cajas. */
+    margin: 0 15px;
+}
+
+/* Para que cambie de color al pasar el cursor por las opciones del menu. */
+header nav ul li:hover {
+    color: #76e054;
+}
+
+/* 1er Pedazo de Titulo. */
+section div h1 {
+    font-size: 72px;
+    margin: -20px 10px;
+}
+
+/* 2do Pedazo de Titulo. */
+section div h1 span {
+    color: #76e054;
+}
+
+/* Separador entre el Titulo y el Texto. */
+section div hr{
+    border-top: 3px dashed gainsboro; /* Línea discontinua */
+    width: 58%; /*Tamaño*/
+    margin: 30px 10px; /*Espaciado vertical */
+}
+
+/* Texto. */
+section div #Texto {
+    Width: 60%; /*Tamaño*/
+    font-size: 16px;
+    color: #555;
+    margin: 30px 10px;
+}
+
+/* Imagenes */
+section div #Bicicleta {
+    width: 400px;
+    position: relative;
+    top: -380px; /* mueve la imagen hacia arriba */
+    right: -630px; /* mueve la imagen hacia la derecha */
+}
+
+section div #Warranty {
+    width: 150px;
+    position: relative;
+    top: -390px; /* mueve la imagen hacia arriba */
+    right: -230px; /* mueve la imagen hacia la derecha */
+}
+
+section div #Video1 {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    margin: 0px 0px;
+    position: relative;
+    top: -580px; /* mueve la imagen hacia arriba */
+    right: -10px; /* mueve la imagen hacia la derecha */
+}
+
+section div #Video2{
+    display: flex;
+    width: 300px;
+    height: 200px;
+    margin: 0px 0px;
+    position: relative;
+    top: -780px; /* mueve la imagen hacia arriba */
+    right: -315px; /* mueve la imagen hacia la derecha */
+}
+
+section div #Facebook, #Twitter, #Wifi, #Mensajes{
+    position: relative;
+    top: 270px; /* mueve la imagen hacia abajo */
+    right: -10px; /* mueve la imagen hacia la derecha */
+}
+
+section div #Derechos{
+    font-size: 18px;
+    position: relative;
+    top: 220px; /* mueve la imagen hacia abajo */
+    right: -150px; /* mueve la imagen hacia la derecha */
+    color: gray;
+}
+
+/* Pie de pagina. */
+footer {
+    display: flex;
+    margin: -650px 0px 0px 0px;
+    color: gray;
+}
+
+footer article{
+    display: inline-block;
+    width: 30.9%;
+}
+
+footer article h2{
+    font-size: 16px;
+}
+
+footer article h2:hover{
+    color: #76e054;
+}
+footer article hr{
+    margin: 0px 0px; /*Espaciado vertical */
+    Width: 90%; /*Tamaño*/
+}
+
+footer article table tr td:hover {
+    color: #76e054;
+}
