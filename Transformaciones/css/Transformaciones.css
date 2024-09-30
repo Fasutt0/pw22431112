@@ -1,0 +1,72 @@
+article{
+    background: greenyellow;
+    border: 2px solid black;
+    color: black;
+    margin: 20px 5px;
+    padding: 15px;
+    width: 400px;
+    text-align: center;
+    -moz-transition: all 5s linear;
+    -o-transition: all 5s linear;
+    -ms-transition: all 5s linear;
+    -webkit-transition: all 5s linear;
+}
+/* Transition y Transform no funciona en todos los navegadores, Por ello tenemos que poner los prefijos de los navegadores. -moz- , -ms- , -o- , -webkit- */
+
+article p{
+    font: 30px Tahoma;
+    font-weight: bold; /*Neritas*/
+    widows: 100%;
+}
+
+/* article :hover{
+    height: 400px;
+    widows: 800px;
+} */
+
+/* article:hover{
+    background: black;
+    color: greenyellow;
+    -moz-transform: translate(150px,300px); 
+    -ms-transform: translate(150px,300px);
+    -o-transform: translate(150px,300px);
+    -webkit-transform: translate(150px,300px);
+} */
+/*Para que la transicion no sea muy violenta usar transition: all 5s linear; en article*/
+/* Transition y Transform no funciona en todos los navegadores, Por ello tenemos que poner los prefijos de los navegadores. -moz- , -ms- , -o- , -webkit- */
+
+/* article:hover{
+    background: black;
+    color: greenyellow;
+    -moz-transform:rotate(180deg);
+    -ms-transform:rotate(180deg);
+    -o-transform:rotate(180deg);
+    -webkit-transform:rotate(180deg);
+} */
+
+/* article:hover{
+    background: black;
+    color: greenyellow;
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+} */
+
+/* article:hover{
+    background: black;
+    color: greenyellow;
+    -moz-transform: skew(10deg,10deg);
+    -ms-transform: skew(10deg,10deg);
+    -o-transform: skew(10deg,10deg);
+    -webkit-transform: skew(10deg,10deg);
+} */
+
+article:hover{
+    background: black;
+    color: greenyellow;
+    -moz-transform: translate(150px,150px) rotate(360deg) scale(1.5) skew(10deg,10deg);
+    -ms-transform: translate(150px,150px) rotate(360deg) scale(1.5) skew(10deg,10deg);
+    -o-transform: translate(150px,150px) rotate(360deg) scale(1.5) skew(10deg,10deg);
+    -webkit-transform: translate(150px,150px) rotate(360deg) scale(1.5) skew(10deg,10deg);
+}
