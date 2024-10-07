@@ -1,0 +1,55 @@
+body{
+    background: lightgray;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: 0px auto;
+    max-width: 723px;
+}
+.header{
+    background: rgb(35,92,146);
+    padding: 10px 0px;
+    text-align: center;
+}
+.header img{
+    width: 150px;
+}
+.links{
+    background: rgb(30,73,114) ;
+    color: white;
+    font-size: 0.6em;
+}
+.linksexample{
+    margin-left: 10px;
+}
+.links img{
+    vertical-align: middle;
+}
+.links h4{
+    background: rgb(35,92,146);
+    margin: 0px;
+    padding: 5px 0px;
+    width: 100%;
+}
+.navbar{
+    background: rgb(239,239,239);
+    text-align: right;
+    padding: 10px 5px;
+}
+.navbar img{
+    width: 70px;
+}
+.progress{
+    background: white;
+    color: black;
+    font-size: 0.6em;
+    text-align: left;
+}
+.progressbar{
+    margin-left: 10px;
+}
+.progressbarra{
+    width: 100%;
+}
+.progresslogo{
+    vertical-align: middle;
+}
