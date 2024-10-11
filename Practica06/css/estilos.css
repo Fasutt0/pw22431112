@@ -1,0 +1,222 @@
+body{
+    background: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    margin: 0px auto;
+    max-width: 1024px;
+    height: 100%;
+}
+
+#contenedor{
+    display: grid;
+    grid-template: 
+    "header header"
+    "encabezado encabezado"
+    "branchesandaccount branchesandaccount"
+    "manage manage";
+}
+
+/*  */
+
+.header{
+    background: black;
+    grid-area: header;
+    height: 60px;
+}
+
+#imagenlogo{
+    width: 40px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+#titulobarra{
+    color: whitesmoke;
+    margin-left: 90px;
+    margin-top: -30px;
+}
+
+#botonesbarra{
+    float: right;
+    margin-right: 70px;
+    margin-top: -40px;
+}
+
+#botonesbarra input{
+    border-radius: 5px;
+    color: white;
+    font-weight: lighter;
+    height: 30px;
+    padding: 0px 15px; 
+    font-size: 14px
+}
+
+#submit{
+    border: 1px solid gray;
+    background: rgb(22, 27, 28);
+}
+
+#signin{
+    border: 1px solid rgb(75, 95, 213);
+    background: rgb(75, 95, 213);
+}
+
+/*  */
+
+.encabezado {
+    background: rgb(218, 219, 241);
+    grid-area: encabezado;
+    height: 250px;
+    text-align: center;
+    padding: 5px 0px;
+}
+
+#tituloencabezado{
+    color: black;
+    margin-bottom: 20px;
+    font-size: 55px;
+    font-weight:lighter;
+}
+
+#search{
+    background: white;
+    border-color: black;
+    color: black;
+    font-size: 12px;
+    height: 45px;
+    width: 470px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#search:hover{
+    background: gray;
+    border: gray;
+    color: white;
+}
+
+/*  */
+
+.branchesandaccount{
+    display: grid;
+    gap: 0px; /*separación entre cajas*/
+    grid-template-columns: repeat(2,minmax(0px,1fr));
+}
+
+.branchesandaccount article{
+    padding: 120px 80px 80px 80px;
+}
+
+.branchesandaccount article h3{
+    margin: -70px 0px 0px 80px;
+    font-size: 16px;
+}
+
+.branchesandaccount article h4{
+    margin: 10px 0px 10px 80px;
+    font-size: 13px;
+}
+
+.branchesandaccount article a{
+    margin: 0px 0px 0px 80px;
+    font-size: 13px;
+}
+
+.branchesandaccount article img{
+    width: 70px;
+}
+
+/*  */
+
+.manage{
+    display: grid;
+    gap: 0px; /*separación entre cajas*/
+    grid-template-columns: repeat(2,minmax(0px,1fr));
+}
+
+.manage article{
+    padding: 0px 80px 80px 80px;
+}
+
+.manage article h3{
+    margin: -70px 0px 0px 80px;
+    font-size: 16px;
+}
+
+.manage article h4{
+    margin: 10px 0px 10px 80px;
+    font-size: 13px;
+}
+
+.manage article a{
+    margin: 0px 0px 0px 80px;
+    font-size: 13px;
+}
+
+.manage article img{
+    width: 55px;
+}
+
+/*  */
+
+.abstract{
+    display: grid;
+    gap: 0px; /*separación entre cajas*/
+    grid-template-columns: repeat(2,minmax(0px,1fr));
+}
+
+.abstract article{
+    padding: 0px 80px 80px 80px;
+}
+
+.quinta h3{
+    margin: -70px 0px 0px 80px;
+    font-size: 16px;
+}
+
+.sexta h3{
+    margin: -55px 0px 0px 80px;
+    font-size: 16px;
+}
+
+.abstract article h4{
+    margin: 10px 0px 10px 80px;
+    font-size: 13px;
+}
+
+.abstract article a{
+    margin: 0px 0px 0px 80px;
+    font-size: 13px;
+}
+
+.abstract article img{
+    width: 55px;
+}
+
+/*  */
+
+.piepagina{
+    background: black;
+    color: white;
+    display: flex;
+}
+
+.piepagina article{
+    display: inline-block;
+    width: 30.9%;
+    margin: 20px 50px
+}
+
+.piepagina article h2{
+    font-size: 16px;
+    font-weight:bold;
+}
+
+.piepagina article table{
+    font-size: 12px;
+    font-weight:lighter;
+}
+
+#logopiepagina{
+    width: 35px;
+}
