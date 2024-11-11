@@ -1,0 +1,35 @@
+body{
+    background-color: bisque;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: 0px auto;
+    width: 1024;
+}
+button{
+    background: green;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+}
+.tarjeta{
+    border: 2px dashed gray;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    margin-top: 20px;
+    padding: 20px;
+    width: 350px;
+}
+#direccion, #telefono{
+    background: lightgray;
+}
+#foto{
+    border-radius: 50px;
+    width: 100px;
+}
+#nombre, #direccion, #telefono{
+    font-weight: bold;
+}
